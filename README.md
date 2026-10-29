@@ -83,11 +83,11 @@ Sample URL tests are documented in `tests/test_samples.md`. The test cases cover
 
 ### Sample Run
 
-
+![Sample run](https://github.com/MTanK2305/phishing-url-awareness/blob/main/screenshots/sample_run.png)
 
 ### Test Results
 
-
+![Test results](https://github.com/MTanK2305/phishing-url-awareness/blob/main/screenshots/test_results.png)
 
 ## Ethical Use
 
