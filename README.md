@@ -78,3 +78,29 @@ Sample URL tests are documented in `tests/test_samples.md`. The test cases cover
 
 1. **Enhanced URL Validation:** Improve URL validation to handle malformed URLs and different input formats more reliably.
 2. **Expanded Warning Checks:** Add more URL analysis checks to identify additional suspicious patterns while clearly explaining the limitations of each check.
+
+## Screenshots
+
+### Sample Run
+
+
+
+### Test Results
+
+
+
+## Ethical Use
+
+- Use sample URL strings for educational testing.
+- Do not collect passwords or other credentials.
+- Do not open suspicious links to test them.
+- Do not scan websites or networks without authorization.
+- Do not claim that the tool can definitively classify URLs as safe or malicious.
+
+## Author
+
+- **Name:** Sahil Sanjay Sonawane
+- **Company:** EWB Edutech Private Limited
+- **Program:** Cybersecurity Mini Project Internship
+- **Role:** Intern
+- **GitHub:** [MTanK2305](https://github.com/MTanK2305)
