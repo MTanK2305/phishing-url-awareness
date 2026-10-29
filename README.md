@@ -74,11 +74,17 @@ The exact output depends on the URL entered.
 
 Sample URL tests are documented in `tests/test_samples.md`. The test cases cover empty input, HTTP and HTTPS URLs, IP-address hostnames, the `@` symbol, long URLs, multiple hostname segments, and punycode-style hostnames.
 
-## Future Improvements
+## Improvements
 
-1. **Enhanced URL Validation:** Improve URL validation to handle malformed URLs and different input formats more reliably.
-2. **Expanded Warning Checks:** Add more URL analysis checks to identify additional suspicious patterns while clearly explaining the limitations of each check.
+### 1. Invalid URL Handling
+- **What changed:** Added error handling using `try` and `except` to handle malformed URL input.
+- **Why:** Prevents the program from crashing when a URL has an invalid format.
+- **How tested:** Entered `http://[bad` and verified that the program displayed an error message instead of crashing.
 
+### 2. Warning Summary
+- **What changed:** Added a `REVIEW CAREFULLY` message that displays the number of warning signs detected.
+- **Why:** Makes the results easier to understand and helps users identify URLs that need further review.
+- **How tested:** Entered `http://192.0.2.10/account` and verified that the program detected two warning signs and displayed the correct count.
 ## Screenshots
 
 ### Sample Run
